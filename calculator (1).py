@@ -15,9 +15,10 @@ class Calculator:
         return a - b
 
     # 掛け算を行う関数を実装してください
-    # @staticmethod
-    # def mul(a, b) -> int:
-    #     """掛け算を行う."""
+    @staticmethod
+    def mul(a, b) -> int:
+        """掛け算を行う."""
+        return a * b
 
     # 割り算を行う関数を実装してください
     # @staticmethod
@@ -38,6 +39,7 @@ if __name__ == '__main__':
     # 各関数のテストコードを作成してください
     print(Calculator.add(numa, numb))
     print(Calculator.sub(numa, numb))
+    print(Calculator.mul(numa, numb))
 
 
     # 文字列の読み込み
